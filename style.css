@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container div{
+    width: 33%;
+    border: solid black 1px;
+    padding: 10px 0px;
+}
+
+.container div:hover{
+    background-color: grey;
+}
+
+.player-name{
+    text-align: center;
+}
+
+.player-name a{
+    color: black;
+}
+
+input{
+    margin-bottom: 25px;
+}
+
+input[type="radio"]{
+    margin-right: 25px;
+}
+
+.retour,
+.submit{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+
+
+
+.container-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+    flex-direction: column;
+}
+
+.container-infos article,
+form{
+    border: solid black 1px;
+    width: 40%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.container-infos h4{
+    position: relative;
+}
+
+.container-infos h4:nth-child(odd){
+    background-color: rgb(184, 184, 184);
+}
+
+.value{
+    position: absolute;
+    left: 150px;
+}
+
